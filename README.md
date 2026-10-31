@@ -4,14 +4,16 @@
 [![Flask](https://img.shields.io/badge/Flask-3.1+-000000?logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![NLTK](https://img.shields.io/badge/NLTK-3.10+-154f5b)](https://www.nltk.org/)
-[![Pytest](https://img.shields.io/badge/Tests-10%20Passed-brightgreen?logo=pytest)](https://pytest.org/)
+[![Pytest](https://img.shields.io/badge/Tests-24%20Passed-brightgreen?logo=pytest)](https://pytest.org/)
+[![Voice AI](https://img.shields.io/badge/Voice%20AI-STT%20%2B%20TTS-blueviolet)](https://github.com/)
 
-An intelligent, production-ready AI & NLP-powered candidate screening platform. It automatically parses, analyzes, and ranks applicant resumes against custom job descriptions using **morphological stemming**, **domain technology taxonomy**, **negation detection**, and **calibrated hybrid scoring**.
+An intelligent, production-ready AI & NLP-powered candidate screening platform. It automatically parses, analyzes, and ranks applicant resumes against custom job descriptions using **morphological stemming**, **domain technology taxonomy**, **negation detection**, **interactive voice recording & audio responses (STT + TTS)**, and **calibrated hybrid scoring**.
 
 ---
 
 ## 🌟 Key Highlights & Capabilities
 
+- 🎙️ **Interactive AI Voice Screener (Record in -> Record out)**: Speak directly into your microphone or upload audio files; the AI transcribes, screens candidates, and replies with a spoken audio review!
 - 🎯 **High Accuracy & Calibrated Scoring**: Eliminates misleading raw TF-IDF score dilution; qualified candidates realistically achieve **80%–95%**.
 - 🔤 **Morphological Stemming (NLTK Porter Stemmer)**: Unifies grammatical variations (`pipelines` ↔ `pipeline`, `built` ↔ `building`, `databases` ↔ `database`) with zero mismatch penalties.
 - 🛡️ **Negation Detection & Penalty Engine**: Accurately catches negative qualifiers (e.g. *"no machine learning"*, *"limited Python"*) and deducts points instead of awarding false positive matches.
